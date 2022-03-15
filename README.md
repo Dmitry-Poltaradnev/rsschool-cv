@@ -1,1 +1,1 @@
-it is my cv
+https://Dmitry-Poltaradnev.github.io/rsschool-cv/cv
