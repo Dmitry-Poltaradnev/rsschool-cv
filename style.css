@@ -1,0 +1,358 @@
+/* Zero */
+
+* {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav,
+footer,
+head,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* Zero */
+
+body {
+  color: black;
+  font-family: "Varela Round";
+  font-size: 20px;
+  background: url(img/backCv.jpg) 0 0 / cover no-repeat;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(167, 212, 230);
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.header__container {
+  background: linear-gradient(45deg, #13547a, #80d0c7);
+  padding-top: 50px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.header__photo {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+.title {
+  background-color: rgb(102, 178, 223);
+  font-size: 25px;
+  border-radius: 15px;
+  font-weight: 600;
+  display: inline;
+  padding: 20px 15px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: yellow;
+}
+
+.link {
+  color: black;
+  border-left: 4px solid gray;
+  height: 20px;
+  padding-left: 25px;
+}
+
+/* Main */
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondСolumn {
+  width: 50%;
+}
+
+.firstColumn {
+  width: 50%;
+}
+
+/* Описание скиллов */
+
+.skillsBar {
+  text-align: center;
+  padding-right: 10px;
+  /* Add some right padding */
+  line-height: 20px;
+  /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+  color: black;
+  /* White text color */
+}
+.skillsBar {
+  background-color: yellow;
+}
+.html {
+  width: 90%;
+}
+
+.css {
+  width: 70%;
+}
+
+.js {
+  width: 50%;
+}
+
+.git {
+  width: 70%;
+}
+
+.avocode {
+  width: 90%;
+}
+
+.figma {
+  width: 90%;
+}
+
+.unity3d {
+  width: 80%;
+}
+
+.organization {
+  width: 90%;
+}
+
+.curiosity {
+  width: 80%;
+}
+
+.ability {
+  width: 90%;
+}
+
+.containerSkills {
+  width: 70%;
+  background-color: gray;
+}
+
+/* main */
+.codeExample {
+  background-color: white;
+  margin: 30px 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.codeExample:hover {
+  background-color: rgb(107, 143, 235);
+}
+.codeTitle {
+  text-align: center;
+  font-size: 35px;
+  padding: 15px 0px;
+}
+
+.border__center {
+  border-left: 4px solid gray;
+  height: 600px;
+  left: 50%;
+  margin: 0px 20px 0px 20px;
+}
+
+.border__top {
+  border: none;
+  background-color: gray;
+  color: gray;
+  height: 4px;
+  margin-bottom: 30px;
+}
+/* ===== */
+
+.profile {
+  position: relative;
+}
+
+/* =====  */
+
+.main__title {
+  font-size: 35px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.itemProf::before {
+  content: url(img/face.png);
+  display: inline-block;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.itemSkills::before {
+  content: url(img/minzur.png);
+  display: inline-block;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.itemWorkExp::before {
+  content: url(img/books.png);
+  display: inline-block;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.itemEducation::before {
+  content: url(img/hat.png);
+  display: inline-block;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.main__text {
+  padding: 20px 0px;
+}
+
+.skills {
+  position: relative;
+}
+
+.title__technicalSkills {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0px 20px 0px;
+}
+
+.workExp {
+  position: relative;
+}
+
+.education {
+  position: relative;
+}
+
+/* ========== */
+
+.containerWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+/* ========= Footer */
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+.linkMyGit {
+  color: black;
+  height: 20px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.linkMyGit:hover {
+  color: yellow;
+}
+.project__title {
+  font-size: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.link__project {
+  margin-bottom: 20px;
+  color: black;
+}
+.link__project:hover {
+  color: yellow;
+}
+.project__list {
+  padding-bottom: 20px;
+}
